@@ -18,11 +18,14 @@
 
 <p align="center">
 <a href="https://coding.net/?utm_source=JavaGuide" target="_blank">
-  <img src="https://ws1.sinaimg.cn/large/006rNwoDgy1g2dw5gau7nj30eg02vwfr.jpg"/>
+  <img src="http://pqrlmrv7w.bkt.clouddn.com/img/2019-4/006rNwoDgy1g2dw5gau7nj30eg02vwfr.jpg"  width="390px"/>
+</a>
+  <a href="http://www.lubanjava.com/luban/index.html?=javaguide
+" target="_blank">
+  <img src="http://pqrlmrv7w.bkt.clouddn.com/img/2019-4/QQ图片20190514211856.gif" width="390px"/>
  </a>
 </p>
 
-推荐一下我的另外一个正在维护的项目：[programmer-advancement](https://github.com/Snailclimb/programmer-advancement) (技术人员成长必备！)
 
 推荐使用 <https://snailclimb.top/JavaGuide/> 在线阅读(访问速度慢的话，请使用 <https://snailclimb.gitee.io/javaguide> )，在线阅读内容本仓库同步一致。这种方式阅读的优势在于：有侧边栏阅读体验更好，Gitee pages 的访问速度相对来说也比较快。
 
@@ -46,9 +49,9 @@
     - [MySQL](#mysql)
     - [Redis](#redis)
 - [系统设计](#系统设计)
-    - [设计模式](#设计模式)
-    - [常用框架](#常用框架)
-    - [数据通信](#数据通信)
+    - [设计模式(工厂模式、单例模式 ... )](#设计模式)
+    - [常用框架(Spring、Zookeeper ... )](#常用框架)
+    - [数据通信(消息队列、Dubbo ... )](#数据通信)
     - [网站架构](#网站架构)
 - [面试指南](#面试指南)
     - [备战面试](#备战面试)
@@ -88,10 +91,12 @@
 
 ### JVM
 
-* [Java内存区域](docs/java/jvm/Java内存区域.md)
-* [JVM垃圾回收](docs/java/jvm/JVM垃圾回收.md)
-* [JDK 监控和故障处理工具](docs/java/jvm/JDK监控和故障处理工具总结.md)
-* [《深入理解Java虚拟机》第2版学习笔记](docs/java/Java虚拟机（jvm）.md)
+* [一 Java内存区域](docs/java/jvm/Java内存区域.md)
+* [二 JVM垃圾回收](docs/java/jvm/JVM垃圾回收.md)
+* [三 JDK 监控和故障处理工具](docs/java/jvm/JDK监控和故障处理工具总结.md)
+* [四 类文件结构](docs/java/jvm/类文件结构.md)
+* [五 类加载过程](docs/java/jvm/类加载过程.md)
+* [六 类加载器](docs/java/jvm/类加载器.md)
 
 ### I/O
 
@@ -162,9 +167,10 @@
 
 #### Spring
 
-- [Spring 学习与面试](docs/system-design/framework/Spring学习与面试.md)
-- [Spring中bean的作用域与生命周期](docs/system-design/framework/SpringBean.md)
-- [SpringMVC 工作原理详解](docs/system-design/framework/SpringMVC%20%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3.md)
+- [Spring 学习与面试](docs/system-design/framework/spring/Spring.md)
+- [Spring中bean的作用域与生命周期](docs/system-design/framework/spring/SpringBean.md)
+- [SpringMVC 工作原理详解](docs/system-design/framework/spring/SpringMVC-Principle.md)
+- [Spring中都用到了那些设计模式?](docs/system-design/framework/spring/Spring-Design-Patterns.md)
 
 #### ZooKeeper
 
@@ -173,10 +179,11 @@
 
 ### 数据通信
 
-- [数据通信(RESTful、RPC、消息队列)相关知识点总结](docs/system-design/data-communication/数据通信(RESTful、RPC、消息队列).md)
+- [数据通信(RESTful、RPC、消息队列)相关知识点总结](docs/system-design/data-communication/summary.md)
 - [Dubbo 总结：关于 Dubbo 的重要知识点](docs/system-design/data-communication/dubbo.md)
 - [消息队列总结](docs/system-design/data-communication/message-queue.md)
-- [RabbitMQ 的重要概念以及安装](docs/system-design/data-communication/rabbitmq.md)
+- [RabbitMQ 入门](docs/system-design/data-communication/RabbitMQ.md)
+- [RocketMQ的几个简单问题与答案](docs/system-design/data-communication/RocketMQ-Questions.md)
 
 ### 网站架构
 
@@ -280,7 +287,6 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 
 下面是笔主收集的一些对本仓库提过有价值的pr或者issue的朋友，人数较多，如果你也对本仓库提过不错的pr或者issue的话，你可以加我的微信与我联系。下面的排名不分先后！
 
-
 <a href="https://github.com/fanofxiaofeng">
     <img src="https://avatars0.githubusercontent.com/u/3983683?s=460&v=4" width="45px"></a>
 <a href="https://github.com/dongzl">
@@ -316,6 +322,12 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 </a>
 <a href="https://github.com/yuechuanx">  
     <img src="https://avatars3.githubusercontent.com/u/19339293?s=460&v=4" width="45px">
+</a>
+<a href="https://github.com/cnLGMing">  
+    <img src="https://avatars2.githubusercontent.com/u/15910705?s=460&v=4" width="45px">
+</a>
+<a href="https://github.com/fanchenggang">  
+    <img src="https://avatars0.githubusercontent.com/u/20358122?s=460&v=4" width="45px">
 </a>
 
 ### 公众号

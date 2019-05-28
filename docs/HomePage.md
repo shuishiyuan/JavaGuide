@@ -1,5 +1,3 @@
-Java后端技术交流群(限工作一年及以上，架构视频免费领取) ：[![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-869815609-red.svg)](https://jq.qq.com/?_wv=1027&k=5QqyxIx) 
-
 点击订阅[Java面试进阶指南](https://xiaozhuanlan.com/javainterview?rel=javaguide)(专为Java面试方向准备)。[为什么要弄这个专栏?](https://shimo.im/./9BJjNsNg7S4dCnz3/)
 
 <h1 align="center">Java 学习/面试指南</h1>
@@ -7,14 +5,7 @@ Java后端技术交流群(限工作一年及以上，架构视频免费领取) �
 <a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
 	<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3/logo - 副本.png" width=""/>
 </a>
-</p>
-<h2 align="center">Special Sponsors</h2>
-<p align="center">
-<a href="https://coding.net/?utm_source=JavaGuide" target="_blank">
-  <img src="https://ws1.sinaimg.cn/large/006rNwoDgy1g2dw5gau7nj30eg02vwfr.jpg"/>
- </a>
-</p>
-
+	
 ## Java
 
 ### 基础
@@ -34,17 +25,18 @@ Java后端技术交流群(限工作一年及以上，架构视频免费领取) �
 * [Java 并发基础常见面试题总结](./java/Multithread/JavaConcurrencyBasicsCommonInterviewQuestionsSummary.md)
 * [Java 并发进阶常见面试题总结](./java/Multithread/JavaConcurrencyAdvancedCommonInterviewQuestions.md)
 * [并发容器总结](./java/Multithread/并发容器总结.md)
-* [synchronized 关键字使用、底层原理、JDK1.6 之后的底层优化以及 和ReentrantLock 的对比](./java/synchronized.md)
 * [乐观锁与悲观锁](./essential-content-for-interview/面试必备之乐观锁与悲观锁.md)
 * [JUC 中的 Atomic 原子类总结](./java/Multithread/Atomic.md)
 * [AQS 原理以及 AQS 同步组件总结](./java/Multithread/AQS.md)
 
 ### JVM
 
-* [Java内存区域](./java/jvm/Java内存区域.md)
-* [JVM垃圾回收](./java/jvm/JVM垃圾回收.md)
-* [JDK 监控和故障处理工具](./java/jvm/JDK监控和故障处理工具总结.md)
-* [《深入理解Java虚拟机》第2版学习笔记](./java/Java虚拟机（jvm）.md)
+* [一 Java内存区域](./java/jvm/Java内存区域.md)
+* [二 JVM垃圾回收](./java/jvm/JVM垃圾回收.md)
+* [三 JDK 监控和故障处理工具](./java/jvm/JDK监控和故障处理工具总结.md)
+* [四 类文件结构](./java/jvm/类文件结构.md)
+* [五 类加载过程](./java/jvm/类加载过程.md)
+* [六 类加载器](./java/jvm/类加载器.md)
 
 ### I/O
 
@@ -115,9 +107,10 @@ Java后端技术交流群(限工作一年及以上，架构视频免费领取) �
 
 #### Spring
 
-- [Spring 学习与面试](./system-design/framework/Spring学习与面试.md)
-- [Spring中bean的作用域与生命周期](./system-design/framework/SpringBean.md)
-- [SpringMVC 工作原理详解](./system-design/framework/SpringMVC%20%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3.md)
+- [Spring 学习与面试](./system-design/framework/spring/Spring.md)
+- [Spring中bean的作用域与生命周期](./system-design/framework/spring/SpringBean.md)
+- [SpringMVC 工作原理详解](./system-design/framework/spring/SpringMVC-Principle.md)
+- [Spring中都用到了那些设计模式?](./system-design/framework/spring/Spring-Design-Patterns.md)
 
 #### ZooKeeper
 
@@ -126,10 +119,11 @@ Java后端技术交流群(限工作一年及以上，架构视频免费领取) �
 
 ### 数据通信
 
-- [数据通信(RESTful、RPC、消息队列)相关知识点总结](./system-design/data-communication/数据通信(RESTful、RPC、消息队列).md)
+- [数据通信(RESTful、RPC、消息队列)相关知识点总结](./system-design/data-communication/summary.md)
 - [Dubbo 总结：关于 Dubbo 的重要知识点](./system-design/data-communication/dubbo.md)
 - [消息队列总结](./system-design/data-communication/message-queue.md)
-- [RabbitMQ 的重要概念以及安装](./system-design/data-communication/rabbitmq.md)
+- [RabbitMQ 入门](./system-design/data-communication/RabbitMQ.md)
+- [RocketMQ的几个简单问题与答案](./system-design/data-communication/RocketMQ-Questions.md)
 
 ### 网站架构
 
@@ -152,7 +146,7 @@ Java后端技术交流群(限工作一年及以上，架构视频免费领取) �
 
 * [第一周（2018-8-7）](./essential-content-for-interview/MostCommonJavaInterviewQuestions/第一周（2018-8-7）.md) (为什么 Java 中只有值传递、==与equals、 hashCode与equals)
 * [第二周（2018-8-13）](./essential-content-for-interview/MostCommonJavaInterviewQuestions/第二周(2018-8-13).md)(String和StringBuffer、StringBuilder的区别是什么？String为什么是不可变的？、什么是反射机制？反射机制的应用场景有哪些？......)
-* [第三周（2018-08-22）](./java/这几道Java集合框架面试题几乎必问.md) （Arraylist 与 LinkedList 异同、ArrayList 与 Vector 区别、HashMap的底层实现、HashMap 和 Hashtable 的区别、HashMap 的长度为什么是2的幂次方、HashSet 和 HashMap 区别、ConcurrentHashMap 和 Hashtable 的区别、ConcurrentHashMap线程安全的具体实现方式/底层具体实现、集合框架底层数据结构总结）
+* [第三周（2018-08-22）](./java/collection/Java集合框架常见面试题.md) （Arraylist 与 LinkedList 异同、ArrayList 与 Vector 区别、HashMap的底层实现、HashMap 和 Hashtable 的区别、HashMap 的长度为什么是2的幂次方、HashSet 和 HashMap 区别、ConcurrentHashMap 和 Hashtable 的区别、ConcurrentHashMap线程安全的具体实现方式/底层具体实现、集合框架底层数据结构总结）
 * [第四周(2018-8-30).md](./essential-content-for-interview/MostCommonJavaInterviewQuestions/第四周(2018-8-30).md) （主要内容是几道面试常问的多线程基础题。）
 
 ### 面经
